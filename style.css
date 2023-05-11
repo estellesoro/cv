@@ -1,0 +1,90 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #21B4FA ;
+}
+.grid-container{
+    height: 1000px;
+    width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 9px;
+    background-color: white; 
+}
+
+.photo{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.profil-photo
+{
+    height: 200px;
+    width: 200px;
+}
+
+.nom{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: #21B4FA ;
+    padding-left: 20px;
+    color: white;
+}
+
+.contact{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-color: white ;
+    padding-left: 20px;
+}
+
+.skill{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    background-color: white ;
+    padding-left: 20px;
+}
+
+.profilperso{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: white ;
+    padding-left: 20px;
+}
+
+.formationpro{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 6;
+    background-color: white ;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.resumedecar{
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 7;
+    background-color: white ;
+    padding-left: 20px;
+    padding-right: 20px;
+}
